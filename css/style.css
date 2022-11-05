@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul{
+   background-color: #649483; 
+   text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin: auto;
+
+}
+ nav ul li a{
+    display: block;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+}
+nav ul li span{
+    padding: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.searcharea{
+    position: relative;
+    display: none;
+}
+.searcharea span{
+    position: absolute;
+    color: #649483;
+    font-size: 20px;
+    margin: 11% 27%;
+}
+
+.searcharea .searchbar input{
+    width: 600px;
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    margin: 10% 25%;
+    border-radius: 25px;
+    padding-left: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.question{
+    margin-top: 20%;
+    margin-left: 50px;
+}
+ul li{
+    list-style: none;
+    
+    
+}
+ul li p{
+    cursor: pointer;
+    font-size: 25px;
+    color: gray;
+    font-weight: 700;
+    margin: 20px;
+}
+ul li p span{
+    padding-left: 60px;
+    
+}
+.answer1{
+    display: none;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+.answer2{
+    display: none;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+.answer3{
+    display: none;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+.answer4{
+    display: none;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+.answer5{
+    display: none;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
